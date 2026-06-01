@@ -28,13 +28,13 @@ Reduction: ~44%
 
 3. Models Trained
 #Model
-1Logistic Regression
-2Naïve Bayes
-3K-Nearest Neighbor (K=5)
-4Support Vector Machine (RBF kernel)
-5Decision Tree
-6Random Forest (100 estimators)
-7Multilayer Perceptron (100→50 neurons)
+1.Logistic Regression
+2.Naïve Bayes
+3.K-Nearest Neighbor (K=5)
+4.Support Vector Machine (RBF kernel)
+5.Decision Tree
+6.Random Forest (100 estimators)
+7.Multilayer Perceptron (100→50 neurons)
 
 4. Evaluation Metrics
 
