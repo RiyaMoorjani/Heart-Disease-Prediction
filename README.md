@@ -212,8 +212,5 @@ The Streamlit app provides a clinical UI with three sections:
 
 ---
 
-<div align="center">
-  Made with ❤️ | Heart Disease Prediction System v1.0
-</div>
 
 
