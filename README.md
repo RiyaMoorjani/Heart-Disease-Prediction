@@ -120,54 +120,6 @@ All 7 models were evaluated on both the full feature set and the 30 selected fea
 
 ---
 
-## Installation
-
-**Requirements:** Python 3.8+, 4GB RAM
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/Heart-Disease-Prediction.git
-cd Heart-Disease-Prediction
-
-# 2. Create and activate a virtual environment
-python -m venv .venv
-
-# Windows
-.venv\Scripts\activate
-# macOS / Linux
-source .venv/bin/activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-```
-
-> **Note:** The dataset file (`data/Z-Alizadeh sani dataset.xlsx`) is not included due to size/licensing. Download it from the [UCI ML Repository](https://archive.ics.uci.edu/dataset/412/heart+disease) and place it in the `data/` folder.
-
----
-
-## Usage
-
-### Run the full pipeline (recommended first step)
-```bash
-python main.py
-```
-This trains all 7 models, generates all visualizations, and saves everything to `outputs/`, `models/`, and `reports/`.  
-**Duration: ~2–5 minutes**
-
-### Run individual components
-```bash
-python data_exploration.py     # EDA and class distribution
-python data_preprocessing.py   # Preprocess and save pipeline
-python feature_selection.py    # Feature selection + importance plots
-python test_system.py          # Validate all components
-```
-
-### Launch the web app
-```bash
-streamlit run app.py
-```
-
----
 
 ## Web Application
 
@@ -206,9 +158,7 @@ The Streamlit app provides a clinical UI with three sections:
 ## References
 
 1. Z-Alizadeh Sani et al. — *Heart Disease Prediction Using Distinct Artificial Intelligence Techniques*, Iran Journal of Computer Science, 2023
-2. [Z-Alizadeh Sani Dataset — UCI ML Repository](https://archive.ics.uci.edu/dataset/412/heart+disease)
-3. [scikit-learn Documentation](https://scikit-learn.org)
-4. [Streamlit Documentation](https://docs.streamlit.io)
+
 
 ---
 
